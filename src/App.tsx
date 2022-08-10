@@ -1,11 +1,12 @@
 import './App.css'
-import { Navbar, Home } from './components'
+import { Navbar, Home, Clients } from './components'
 
 const App = () => {
   return (
     <div className='App'>
       <Navbar />
       <Home />
+      <Clients />
     </div>
   )
 }

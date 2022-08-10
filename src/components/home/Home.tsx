@@ -9,14 +9,14 @@ const Home = () => {
           <br />
           Interaction Design
         </h1>
-      </div>
-      <div className="arrow-container">
-        <a href="#skills">
-          <div className="chevron"></div>
-          <div className="chevron"></div>
-          <div className="chevron"></div>
-          <span className="text">Scroll down</span>
-        </a>
+        <div className="arrow-container">
+          <a href="#work">
+            <div className="chevron"></div>
+            <div className="chevron"></div>
+            <div className="chevron"></div>
+            <span className="text">Scroll down</span>
+          </a>
+        </div>
       </div>
     </div>
   )

@@ -1,0 +1,15 @@
+.clients-content {
+  text-align: center;
+  font-size: x-large;
+  word-spacing: 3px;
+}
+
+.clients span {
+  color: var(--color-neutral-transparent)
+}
+
+.clients-images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
