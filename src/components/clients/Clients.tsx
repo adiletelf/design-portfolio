@@ -1,19 +1,11 @@
-import React from 'react'
 import {
   airbnb, airbnbColored,
   fedex, fedexColored,
   google, googleColored,
   microsoft, microsoftColored
 } from './imports'
+import { handleImage } from '../../util/handleImage'
 import './clients.css'
-
-const handleImage = (image: string, coloredImage: string) => {
-  return {
-    src: image,
-    onMouseMove: (e: React.MouseEvent<HTMLImageElement>) => { e.currentTarget.src = coloredImage },
-    onMouseOut: (e: React.MouseEvent<HTMLImageElement>) => { e.currentTarget.src = image }
-  }
-}
 
 const airbnbProps = handleImage(airbnb, airbnbColored)
 const fedexProps = handleImage(fedex, fedexColored)

@@ -5,10 +5,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='navbar-logo'>
-        <img src={logo} alt='logo' />
+        <a href='https://github.com/adiletelf'><img src={logo} alt='logo' /></a>
       </div>
       <div className='navbar-links'>
-        <h2><a href='#home' className='underline-animation'>Home</a></h2>
         <h2><a href='#clients' className='underline-animation'>Clients</a></h2>
         <h2><a href='#work' className='underline-animation'>Work</a></h2>
         <h2><a href='#about' className='underline-animation'>About</a></h2>
