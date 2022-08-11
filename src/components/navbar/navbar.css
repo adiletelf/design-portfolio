@@ -13,16 +13,16 @@
   margin: 0 1rem;
 }
 
-.hover-underline-animation {
+.underline-animation {
   position: relative;
   text-decoration: none;
 }
 
-.hover-underline-animation:hover {
+.underline-animation:hover {
   color: var(--color-primary);
 }
 
-.hover-underline-animation::after {
+.underline-animation::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -35,7 +35,7 @@
   transform: scaleX(0);
 }
 
-.hover-underline-animation:hover::after {
+.underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }

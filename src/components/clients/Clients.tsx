@@ -22,7 +22,7 @@ const microsoftProps = handleImage(microsoft, microsoftColored)
 
 const Clients = () => {
   return (
-    <div className="clients" id='clients'>
+    <div className='clients' id='clients'>
       <div className='clients-content'>
         <h2><span>Some of the</span> clients I have designed for</h2>
       </div>

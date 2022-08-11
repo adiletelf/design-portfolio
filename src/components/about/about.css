@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 1rem 2rem;
+}
+
+.about-content h2 {
+  text-transform: uppercase;
+}
+
+.about-content h1 {
+  margin: 1rem 0;
+}
+
+.about-content span {
+  color: var(--color-neutral-transparent)
+}
+
+.about-images {
+  display: flex; 
+}
+
+.about-images img {
+  object-fit: contain;
+  margin-left: 2rem;
+}

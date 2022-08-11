@@ -4,7 +4,7 @@ import cards from './imports'
 
 const Work = () => {
   return (
-    <div className='work'>
+    <div className='work' id='work'>
       <div className='work-content'>
         <h2><span>Selected</span> Works</h2>
       </div>
