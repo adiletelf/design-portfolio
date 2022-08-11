@@ -1,8 +1,5 @@
 import './clients.css'
-import airbnb from '../../assets/airbnb.png'
-import fedex from '../../assets/fedex.png'
-import google from '../../assets/google.png'
-import microsoft from '../../assets/microsoft.png'
+import { airbnb, fedex, google, microsoft } from './imports'
 
 const Clients = () => {
   return (

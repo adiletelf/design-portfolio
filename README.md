@@ -6,8 +6,8 @@ Run and open [localhost:5173](http://localhost:5173) in the browser.
 
 ### TODO
 - [x] Create Navbar
-- [ ] Create Home
-- [ ] Create Skills
+- [x] Create Home
+- [x] Create Skills
 - [ ] Create Work
 - [ ] Create About
 - [ ] Create Footer

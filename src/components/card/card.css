@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 2rem 2rem;
+}
+
+.card-content {
+  margin: 5rem 2rem;
+  font-size: larger;
+}
+
+.card-content h4 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.card-content h2 {
+  margin: 2rem 0;
+  animation: color-change 4s alternate infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: var(--color-neutral-transparent)
+  }
+
+  50% {
+    color: var(--color-neutral)
+  }
+
+  100% {
+    color: var(--color-primary)
+  }
+}
+
+.card-content p {
+  color: var(--color-neutral-transparent)
+}
+
+.card button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  color: var(--color-neutral);
+  border: 1px solid var(--color-neutral-transparent);
+  border-radius: 100px;
+  background-color: var(--color-bg);
+  cursor: pointer;
+}
+
+.card button span {
+  margin-left: 3px;
+  font-size: x-large;
+  transform: scale(0.5, 1);
+}
