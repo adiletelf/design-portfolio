@@ -1,6 +1,6 @@
-import './work.css'
 import Card from '../card/Card'
 import cards from './imports'
+import './work.css'
 
 const Work = () => {
   return (
